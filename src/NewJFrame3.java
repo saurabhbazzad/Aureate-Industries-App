@@ -278,7 +278,7 @@ public class NewJFrame3 extends javax.swing.JFrame {
         String name=this.jTextField1.getText().trim();
         if(!name.equals((""))){
             // TODO add your handling code here:
-            File file=new File("C:\\Data\\File.txt");
+            File file=new File("C:/Data/File.txt");
             Scanner sc = null;
             try {
                 sc=new Scanner(file);
@@ -313,7 +313,7 @@ public class NewJFrame3 extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
-        File file=new File("C:\\Data\\File.txt");
+        File file=new File("C:/Data/File.txt");
         Scanner sc = null;
         try {
             sc=new Scanner(file);
