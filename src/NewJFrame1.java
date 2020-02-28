@@ -199,7 +199,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
         String cost=this.jTextField5.getText().trim();
         String rate=this.jTextField6.getText().trim();
         String append_string=name+"\t"+address+"\t"+afs+"\t"+hts+"\t"+cost+"\t"+rate+"\n";
-        File file=new File("/Users/saurabhsingh/Desktop/file.txt");
+        File file=new File("C:\\Data\\File.txt");
         FileWriter fw=new FileWriter(file, true);
         fw.write(append_string);
         fw.close();
