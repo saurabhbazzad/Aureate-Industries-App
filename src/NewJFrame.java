@@ -217,7 +217,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
         // TODO add your handling code here:
-        File file=new File("/Users/saurabhsingh/Desktop/file.txt");
+        File file=new File("C:\\Data\\File.txt");
             Scanner sc = null;
             try {
                 sc=new Scanner(file);
